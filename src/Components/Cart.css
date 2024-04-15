@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.cart{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 10px;
+    margin-top: 50px;
+}
+.Filter{
+    top: 50px;
+    padding: 5px;
+    width: 100px;
+    margin: 5px;
+    background-color: black;
+    color: antiquewhite;
+    border: 1px solid whitesmoke;
+    box-shadow: 1px 1px 1px orchid;
+    cursor: pointer;
+}
+.CartContainer{
+    width: 200px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 1px #f1f1f1;
+    border-radius: 5px ;
+    background-color: #f1f1f1;
+}
+
+.Cart-Img{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 250px;
+    height: 50vh;
+    /* padding: 10px; */
+    
+}
+.Cart-Img>img{
+    object-fit: contain;
+    width: 65%;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+    margin: 10px;
+    
+}
+.Cart-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.Cart-title>p{
+    width: 200px;
+    text-align: center;
+    font-size: 15px;
+    margin: 0 20px;
+    line-height: 18px;
+}
+.cart-btn>button{
+     padding: 5px;
+      width: 180px;
+      border-radius: 15px;
+      margin: 0 18px;
+      font-weight: 15px;
+      background-color: rgb(44, 198, 198);
+      font-weight: bold;
+      color: #f1f1f1;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      cursor: pointer;
+      border: 1px solid rgb(96, 94, 94);
+
+}
+.Addtocart>button{
+    width: 20px;
+    height: 20px;background-color: tomato;
+    color: #f1f1f1;
+     border-radius: 50%;
+     cursor: pointer;
+     margin: 5px;
+     border: none;
+
+}

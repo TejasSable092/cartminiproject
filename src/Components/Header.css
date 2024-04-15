@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    display: flex;
+    background-color: #313131;
+    color: aliceblue;
+    justify-content: space-evenly;
+    height: 10vh;
+    align-items: center;
+    cursor: pointer;
+}
+.fliter-Cart{
+    margin: 5px;
+}
+
